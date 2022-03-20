@@ -5,28 +5,29 @@ This repo is mostly the same thing as LUFAHybridFightstick except for the pinout
 
 Pinout diagram for the PocketMX PCB:
 
-pin 1 - start
-pin 0 - select
+- pin 1 - start
+- pin 0 - select
 
-pin 2 - left
-pin 3 - down
-pin 4 - right
-pin 5 - up
 
-pin 6 - lp
-pin 7 - mp
-pin 8 - hp
-pin 9 - 4p
+- pin 2 - left
+- pin 3 - down
+- pin 4 - right
+- pin 5 - up
 
-pin 10 - ??
-pin 16 - R3
-pin 14 - L3
-pin 15 - Home
+- pin 6 - lp
+- pin 7 - mp
+- pin 8 - hp
+- pin 9 - 4p
 
-pin 18 - 4K
-pin 19 - HK
-pin 20 - MK
-pin 21 - LK
+- pin 10 - ??
+- pin 16 - R3
+- pin 14 - L3
+- pin 15 - Home
+
+- pin 18 - 4K
+- pin 19 - HK
+- pin 20 - MK
+- pin 21 - LK
 
 Everything else is the exact same as the original repo.
 
