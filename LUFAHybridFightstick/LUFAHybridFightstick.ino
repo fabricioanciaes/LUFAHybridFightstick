@@ -24,29 +24,29 @@
 #define HOME_DELAY 1000
 
 /* PINOUT (follows Nintendo naming (X=up, B=down)) */
-#define PIN_UP    MOSI
-#define PIN_DOWN  1
-#define PIN_LEFT  SS
-#define PIN_RIGHT 0
-#define PIN_A     12           //XBOX B
-#define PIN_B     11           //XBOX A  
-#define PIN_X     9            //XBOX Y
-#define PIN_Y     10           //XBOX X     
-#define PIN_L     8            //XBOX LB
-#define PIN_R     2            //XBOX RB
-#define PIN_ZL    7            //XBOX LT
-#define PIN_ZR    3            //XBOX RT
-#define PIN_LS    A4           //XBOX LS (left analog click)
-#define PIN_RS    A5           //XBOX RS (right analog click)
-#define PIN_PLUS  4            //XBOX START
-#define PIN_MINUS 6            //XBOX BACK
-#define PIN_HOME  5
+#define PIN_UP    5
+#define PIN_DOWN  3
+#define PIN_LEFT  2
+#define PIN_RIGHT 4
+#define PIN_A     20           //XBOX B
+#define PIN_B     21           //XBOX A  
+#define PIN_X     7            //XBOX Y
+#define PIN_Y     6            //XBOX X     
+#define PIN_L     9            //XBOX LB
+#define PIN_R     8            //XBOX RB
+#define PIN_ZL    18           //XBOX LT
+#define PIN_ZR    19           //XBOX RT
+#define PIN_LS    14           //XBOX LS (left analog click)
+#define PIN_RS    16           //XBOX RS (right analog click)
+#define PIN_PLUS  1            //XBOX START
+#define PIN_MINUS 0            //XBOX BACK
+#define PIN_HOME  15
 
 #ifdef WITH_ANALOG
-#define PIN_LANALOGX    A0
-#define PIN_LANALOGY    A1
-#define PIN_RANALOGX    A2
-#define PIN_RANALOGY    A3
+#define PIN_LANALOGX    10
+#define PIN_LANALOGY    10
+#define PIN_RANALOGX    10
+#define PIN_RANALOGY    10
 
 typedef struct point_s {
   int x;

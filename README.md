@@ -1,6 +1,37 @@
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=WT735CX4UMZ9U)
 
-## LUFA Switch/XInput hybrid Fightstick
+## LUFA Switch/XInput hybrid Fightstick (pocket mx fork)
+This repo is mostly the same thing as LUFAHybridFightstick except for the pinout mapping, I'm tailoring this specifically to my DIY Project PocketMX
+
+Pinout diagram for the PocketMX PCB:
+
+pin 1 - start
+pin 0 - select
+
+pin 2 - left
+pin 3 - down
+pin 4 - right
+pin 5 - up
+
+pin 6 - lp
+pin 7 - mp
+pin 8 - hp
+pin 9 - 4p
+
+pin 10 - ??
+pin 16 - R3
+pin 14 - L3
+pin 15 - Home
+
+pin 18 - 4K
+pin 19 - HK
+pin 20 - MK
+pin 21 - LK
+
+Everything else is the exact same as the original repo.
+
+Original readme below:
+---
 
 I really like the "neogeo pad 2" (basically a neogeo cd pad with 6 face buttons + 2 triggers), and wanted to make one of mine work both on nintendo switch and PC so I modded an Arduino pro micro inside it and made some code.
 
